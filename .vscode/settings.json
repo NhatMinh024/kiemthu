@@ -1,0 +1,37 @@
+{
+  // Tự động lưu khi bạn chuyển tab
+  "files.autoSave": "onFocusChange",
+
+  // Tắt minimap để nhẹ hơn
+  "editor.minimap.enabled": false,
+
+  // Tắt Git nếu bạn không dùng
+  "git.enabled": false,
+
+  // Không hiển thị khoảng trắng
+  "editor.renderWhitespace": "none",
+
+  // Cuộn mượt gây lag nên tắt
+  "editor.smoothScrolling": false,
+
+  // Tắt format khi lưu (tránh delay)
+  "editor.formatOnSave": false,
+
+  // Không gợi ý import tự động cho Java
+  "java.completion.importOrder": [],
+
+  // Tắt gợi ý Java không cần thiết
+  "java.completion.enabled": false,
+
+  // Không phân tích quá sâu để tránh lag
+  "java.errors.incompleteClasspath.severity": "ignore",
+
+  // Tắt auto update extension
+  "extensions.autoUpdate": false,
+
+  // Không mở Welcome khi bật VS Code
+  "workbench.startupEditor": "none",
+
+  // Không restore lại file cũ nếu treo máy
+  "window.restoreWindows": "none"
+}
